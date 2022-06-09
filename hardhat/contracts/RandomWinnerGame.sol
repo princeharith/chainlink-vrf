@@ -19,7 +19,7 @@ contract RandomWinnerGame is VRFConsumerBase, Ownable {
     //Variable to indicate if game started or not
     bool public gameStarted;
     //fees for entering game
-    uint256 entryFee;
+    uint256 public entryFee;
     //current game id
     uint256 public gameId;
 
