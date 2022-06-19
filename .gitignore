@@ -1,1 +1,34 @@
 /graph/node_modules
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/my-app/node_modules
+/my-app/.pnp
+/my-app.pnp.js
+
+# testing
+/my-app/coverage
+
+# next.js
+/my-app/.next/
+/my-app/out/
+
+# production
+/my-app/build
+
+# misc
+/my-app.DS_Store
+/my-app*.pem
+
+# debug
+/my-appnpm-debug.log*
+/my-appyarn-debug.log*
+/my-appyarn-error.log*
+/my-app.pnpm-debug.log*
+
+# local env files
+/my-app.env*.local
+
+# vercel
+/my-app.vercel
